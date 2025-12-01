@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Portafolio | Estudiante de Ingeniería</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+body {
+    background-image: url('assets/img/s.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+
+<body class="bg-dark text-light">
+  
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark border-bottom border-secondary">
+  <div class="container">
+    <a class="navbar-brand me-5" href="#">Mi Portafolio</a>
+    <div>
+      <a class="nav-link d-inline text-light px-3" href="#proyectos">Proyectos</a>
+      <a class="nav-link d-inline text-light px-3" href="#contacto">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- HERO -->
+  <header class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="/assets/img/Camilo_Bucheli_-removebg-preview.png" alt="avatar" class="img-fluid rounded-circle shadow-lg mb-3" style="max-width: 250px;">
+      </div>
+
+      <div class="col-md-8">
+        <h1 class="display-5 fw-bold">Hola, soy <span class="text-primary">Camilo Bucheli</span></h1>
+        <p class="lead">
+          Estudiante de Ingeniería con interés en Redes, Ciberseguridad, Criptografía y Desarrollo Web.
+        </p>
+        <a href="#proyectos" class="btn btn-primary mt-3">Ver proyectos</a>
+      </div>
+    </div>
+  </header>
+
+<!-- Línea decorativa -->
+<div class="position-relative my-5">
+  <div class="border-top border-secondary"></div>
+  <div class="position-absolute top-50 start-50 translate-middle bg-dark px-3">
+    <i class="fas fa-star text-primary"></i> 
+  </div>
+</div>
+
+<!-- SOBRE MÍ -->
+<section class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+      <h2 class="mb-4 text-center text-primary">Sobre mí</h2>
+      <p class="text-center fs-5">
+        Soy estudiante de ingeniería con especial interés en el desarrollo de soluciones digitales,
+        la seguridad informática y la creación de prototipos funcionales. Me gusta aprender construyendo
+        proyectos prácticos como escáneres de puertos, simulaciones de conexiones seguras y prototipos web.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Línea decorativa -->
+<div class="position-relative my-5">
+  <div class="border-top border-secondary"></div>
+  <div class="position-absolute top-50 start-50 translate-middle bg-dark px-3">
+    <i class="fas fa-star text-primary"></i> 
+  </div>
+</div>
+
+  <!-- PROYECTOS DESTACADOS -->
+  <section id="proyectos" class="container py-5">
+    <h2 class="mb-4">Proyectos Destacados</h2>
+
+    <div class="row g-4">
+      <!-- PROYECTO 1 -->
+      <div class="col-md-6">
+        <div class="card project-card shadow">
+          <img src="assets/img/ciberseguridad.png" class="card-img-top" alt="proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title text-white">Escáner de Puertos en Python</h5>
+            <p class="card-text text-white">Proyecto de ciberseguridad: herramienta CLI que analiza puertos abiertos en un host.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTO 2 -->
+      <div class="col-md-6">
+        <div class="card project-card shadow">
+          <img src="assets/img/P2P.png" class="card-img-top" alt="proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title text-white">Simulación P2P con Encriptación</h5>
+            <p class="card-text text-white">Simulación educativa de comunicación segura entre dos nodos usando ElGamal.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Línea decorativa -->
+<div class="position-relative my-5">
+  <div class="border-top border-secondary"></div>
+  <div class="position-absolute top-50 start-50 translate-middle bg-dark px-3">
+    <i class="fas fa-star text-primary"></i> 
+  </div>
+</div>
+
+  <!-- VIDEO DEMOSTRATIVO -->
+  <section class="container py-5">
+    <h2 class="mb-4">Demostración del Proyecto</h2>
+    <p>En el siguiente video explico cómo construí el sitio web, desde el wireframe hasta el código final.</p>
+
+    <!-- Aquí pegas tu video de YouTube -->
+    <div class="ratio ratio-16x9 rounded overflow-hidden shadow">
+      <iframe src="https://www.youtube.com/embed/XXXXXXXX"
+              title="Video demostración"
+              allowfullscreen></iframe>
+    </div>
+  </section>
+
+<!-- Línea decorativa -->
+<div class="position-relative my-5">
+  <div class="border-top border-secondary"></div>
+  <div class="position-absolute top-50 start-50 translate-middle bg-dark px-3">
+    <i class="fas fa-star text-primary"></i> 
+  </div>
+</div>
+
+  <!-- CONTACTO -->
+  <footer id="contacto" class="container py-5">
+    <h2 class="mb-3">Contacto</h2>
+    <p>Puedes escribirme o visitar mis redes profesionales:</p>
+    <ul>
+      <li>Email: cb92845@gmail.com</li>
+      <li>GitHub: https://github.com/Buck95</li>
+      <li>LinkedIn: www.linkedin.com/in/acamilo-bucheli</li>
+    </ul>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

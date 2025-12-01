@@ -1,0 +1,45 @@
+body {
+  background: #0d0b14;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Avatar estilo glow */
+.hero-avatar {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(140, 82, 255, 0.6);
+}
+
+/* Tarjetas de proyecto */
+.project-card {
+  background: #1a1625;
+  border: 1px solid #312a45;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(140, 82, 255, 0.4);
+}
+
+/* Titulos */
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+/* Enlaces */
+a {
+  color: #a77bff;
+}
+
+a:hover {
+  color: #d2b3ff;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #2d2640;
+}
